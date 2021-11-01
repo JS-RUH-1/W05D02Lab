@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.mycontainer{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px ;
+  justify-content: center;
+  gap: 50px;
+ 
+}
+.chield{
+
+ width: 200px;
+ height: 130px;
+ border-radius: 10px;
+ background-color: rgb(255, 255, 255);
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.h4Gap{
+  height: 50px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .mycontainer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px  200px ;
+    justify-content: center;
+    gap: 50px;
+   
+  }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mycontainer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px  ;
+    justify-content: center;
+    gap: 50px;
+   
+  }
+  .chield{
+  
+   width: 200px;
+   height: 130px;
+   border-radius: 10px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
