@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+.nav{
+  display: flex;
+  background-color: rgb(221, 221, 230);
+  padding: 30px 10px;
+  justify-content: space-around;
+}
+.nav li{
+  list-style: none;
+  width: auto;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+}
+.nav a:hover{
+  color: darkolivegreen;
+}
+button {   
+  background-color: rgb(104, 61, 121);   
+  width: 100%;  
+   color: orange;   
+   padding: 15px;   
+   margin: 10px 0px;   
+   border: none;   
+   cursor: pointer;   
+    }   
+form {   
+   border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+   width: 100%;   
+   margin: 8px 0;  
+   padding: 12px 20px;   
+   display: inline-block;   
+   border: 2px solid rgb(104, 61, 121);   
+   box-sizing: border-box;   
+}  
+button:hover {   
+   opacity: 0.7;   
+}   
+.cancelbtn {   
+   width: auto;   
+   padding: 10px 18px;  
+   margin: 10px 5px;  
+}   
+.container {   
+   padding: 25px;   
+   background-color: ghostwhite;  
+}  
+.login-div{
+  width: 500px;
+  margin: 5% auto;
+}
+.counter{
+  margin: 20% 0;
+}
